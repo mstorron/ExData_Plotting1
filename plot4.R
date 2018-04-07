@@ -1,3 +1,5 @@
+library(sqldf)
+library(lubridate)
 today = as.Date(Sys.time())
 #fetch zip data
 exdata<- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
